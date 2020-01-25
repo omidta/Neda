@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://ci.ac.nz/media/images/logos/auckland-university.png",
+    "link": "",
+    "text": "Neda Sakhaee"
+  },
+  "text": {
+    "more": "Laws have unique features that evolve in response to societies and environments. A full description of the complex legislation networks that underlie law-specific functions is still missing. We describe a document-document interaction map for the legislation network of New Zealand containing about 138000 highly reliable interactions between about 16000 laws. In this study, the global behaviour of legislation evolution emerges from statistical analyses of the resulting network, together with a novel stochastic model to explain the network generative processes. We observe a dynamic growth pattern of individual laws\u0027 in-degree, providing evidence for a model of evolution for legislation networks. This and future legislation network evolution models should facilitate systematic approaches to understand legislative processes better and improve them.\n\nOur proposed information extraction framework generates reliable dynamic networks of legislation by recognising distinct expressions in legal texts. We note the importance of data accuracy in network analysis and improved approximate string matching techniques.  We demonstrate network data-sets with more than 98 percent precision and recall.\n\nThe linear growth in legislation network size reflects a fixed capacity for parliament to pass laws. Also, the exponential growth in their density explain improvements in the law drafting processes. The preferential attachment process for legislation is impacted as a result of node aging, node capacity in receiving new edges, and content limitations. Thus legislation networks don\u0027t show scale-free power-law properties. Our stochastic model of the legislation network evolution process explains their broad-scale to single-scale behaviour with a $\\Lomax$ distribution.",
+    "intro": "\n\n\n\n\n\n\nStructure and Evolution of Legislation Network\nNode size shows Katz Prestige Centrality",
+    "title": "Structure and Evolution of Legislation Network"
+  },
+  "legend": {
+    "edgeLabel": "Document-Document Interactions",
+    "colorLabel": "Communities",
+    "nodeLabel": "NZ Acts"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Interval",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Id"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
